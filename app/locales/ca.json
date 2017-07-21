@@ -1,6 +1,6 @@
 {
     "home" : {
-        "commands" : "Digues \"Qué puc dir?\" per veure un llistat d\'ordres..."
+        "commands" : "Digues \"Qué puc dir?\" per veure un llistat d'ordres..."
     },
     "traffic" : {
         "time_to" : "Temps fins a {{name}}: "
@@ -39,26 +39,26 @@
         }
     },
     "commands": {
-        "title" : "Llistat d\'ordres",
+        "title" : "Llistat d'ordres",
         "list": {
             "text": "Qué puc dir?",
             "voice": "Que dic",
-            "description": "Llistat d\'ordres de veu."
+            "description": "Llistat d'ordres de veu."
         },
         "list-next": {
             "text": "Següent pàgina",
             "voice": "següent(-pàgina) (ordre) (pàgina)",
-            "description": "Mostra la següent pàgina",
+            "description": "Mostra la següent pàgina"
         },
         "list-prev": {
             "text": "Pàgina anterior",
             "voice": "anterior(-pàgina) (ordre) (pàgina)",
-            "description": "Mostra la pàgina anterior",
+            "description": "Mostra la pàgina anterior"
         },
         "list-page": {
             "text": "Passa a la pàgina _______",
             "voice": "(passa a la) (ves a) (ordre) pàgina *pageNum",
-            "description": "Mostra una pàgina específica",
+            "description": "Mostra una pàgina específica"
         },        
         "home": {
             "text": "Torna",
