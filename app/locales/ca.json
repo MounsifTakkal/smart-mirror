@@ -1,0 +1,230 @@
+{
+    "home" : {
+        "commands" : "Digues \"Qué puc dir?\" per veure un llistat d\'ordres..."
+    },
+    "traffic" : {
+        "time_to" : "Temps fins a {{name}}: "
+    },
+    "reminders": {
+        "empty": "No hi han recordatoris."
+    },
+    "timer": {
+      "one": "Un",
+      "minute": "Minut(s)?",
+      "second": "Segon(s)?"
+    },
+    "lights": {
+        "colors": {
+            "red": "vermell",
+            "dark_green": "verd fosc",
+            "green": "verd",
+            "blue": "blau",
+            "yellow": "groc",
+            "orange":  "taronja",
+            "pink": "rosa",
+            "purple": "púrpura",
+            "white": "blanc",
+            "movie": "pel·lícula",
+            "colorloop": "color",
+            "stop": "aturar"
+        },
+        "intensity": {
+            "increase": "incrementa",
+            "decrease": "disminueix",
+            "max": "max"
+        },
+        "action": {
+            "on": "encen",
+            "off": "apaga"
+        }
+    },
+    "commands": {
+        "title" : "Llistat d\'ordres",
+        "list": {
+            "text": "Qué puc dir?",
+            "voice": "Que dic",
+            "description": "Llistat d\'ordres de veu."
+        },
+        "list-next": {
+            "text": "Següent pàgina",
+            "voice": "següent(-pàgina) (ordre) (pàgina)",
+            "description": "Mostra la següent pàgina",
+        },
+        "list-prev": {
+            "text": "Pàgina anterior",
+            "voice": "anterior(-pàgina) (ordre) (pàgina)",
+            "description": "Mostra la pàgina anterior",
+        },
+        "list-page": {
+            "text": "Passa a la pàgina _______",
+            "voice": "(passa a la) (ves a) (ordre) pàgina *pageNum",
+            "description": "Mostra una pàgina específica",
+        },        
+        "home": {
+            "text": "Torna",
+            "voice": "Torna",
+            "description": "Torna al menú principal."
+        },
+        "sleep": {
+            "text": "Dorm",
+            "voice": "Dorm",
+            "description": "Atura el sistema."
+        },
+        "wake_up": {
+            "text": "Desperta",
+            "voice": "Desperta",
+            "description": "Desperta el sistema."
+        },
+        "debug": {
+            "text": "Opcions",
+            "voice": "Opcions",
+            "description": "Mostra informació de depuració."
+        },
+        "map_show": {
+            "text": "Mostra el mapa",
+            "voice": "Mostra el mapa",
+            "description": "Mostra el mapa de la ubicació actual."
+        },
+        "map_location": {
+            "text": "Mostra el mapa________",
+            "voice": "Mostra el mapa de *location*",
+            "description": "Mostra el mapa de la posició indicada."
+        },
+        "map_zoom_in": {
+            "text": "Centra el mapa",
+            "voice": "Centra (el mapa)",
+            "description": "Centra el mapa."
+        },
+        "map_zoom_out": {
+            "text": "Amplia el mapa",
+            "voice": "Amplia (el mapa)",
+            "description": "Amplia el mapa."
+        },
+        "map_zoom_point": {
+            "text": "Apunta el mapa a _______",
+            "voice": "Apunta (el mapa) a *value*",
+            "description": "Apunta el mapa a un punt en concret."
+        },
+        "map_zoom_reset": {
+            "text": "Resetea el mapa",
+            "voice": "Resetea (el) (mapa)",
+            "description": "Resetea (el) (mapa)."
+        },
+        "video_search": {
+            "text": "Busca imatge de _______",
+            "voice": "Busca imatge de *term*",
+            "description": "Busca una imatge."
+        },
+        "video_stop": {
+            "text": "Stop video",
+            "voice": "stop (the) video",
+            "description": "Stops the playback of video content."
+        },
+        "image_giphy": {
+            "text": "Busca animació de _______",
+            "voice": "Busca animacion de *img*",
+            "description": "Busca animació de algún tema."
+        },
+        "image_comic": {
+            "text": "Comic",
+            "voice": "Comic (del dia)",
+            "description": "Mostra el comic del día."
+        },
+        "image_comic_dilbert": {
+            "text": "Comic Dilbert",
+            "voice": "Comic Dilbert",
+            "description": "Muestra el comic Dilbert."
+        },
+        "reminder_insert": {
+            "text": "Recorda\'m fer _______",
+            "voice": "Recorda\'m fer *task*",
+            "description": "Recordar-me fer una tasca."
+        },
+        "reminder_clear": {
+            "text": "Neteja la tareas pendents",
+            "voice": "Limpia la tareas pendientes",
+            "description": "Limpia la tareas pendientes."
+        },
+        "reminder_show": {
+            "text": "Muéstrame la lista de retiro",
+            "voice": "Muéstrame la lista de retiro",
+            "description": "Muestra la lista de retiro."
+        },
+        "time_show": {
+            "text": "¿Qué hora es?",
+            "voice": "que hora es",
+            "description": "Muestra la hora actual."
+        },
+        "timer_start": {
+            "text": "Temporizador a _______",
+            "voice": "(ajusta el) temporizador (a) *duration",
+            "description": "Inicia un temporizador."
+        },
+        "timer_show": {
+            "text": "Muestra temporizador",
+            "voice": "muestra (el) temporizador",
+            "description": "Muestra el temporizador."
+        },
+        "timer_stop": {
+            "text": "Para temporizador",
+            "voice": "para (el) temporizador",
+            "description": "Para el temporizador."
+        },
+        "timer_resume": {
+            "text": "Continua temporizador",
+            "voice": "continua (el) temporizador",
+            "description": "Continua el temporizador."
+        },
+        "sc_play": {
+            "text": "SoundCloud play ________",
+            "voice": "SoundCloud play *query",
+            "description": "Play a song on SoundCloud."
+        },
+        "sc_pause": {
+            "text": "SoundCloud pause/stop",
+            "voice": "SoundCloud (pause)(post)(stop)(stock)",
+            "description": "Stop/pause SoundCoud playback."
+        },
+        "sc_resume": {
+            "text": "SoundCloud play",
+            "voice": "SoundCloud (play)(resume)",
+            "description": "Resumes playback."
+        },
+        "sc_replay": {
+            "text": "SoundCloud replay",
+            "voice": "SoundCloud replay",
+            "description": "Replays the current song on SoundCloud."
+        },
+        "light_action": {
+            "text": "[estado] las luces a [acción]",
+            "voice": ":state las luces a *action",
+            "description": "Cambia el estado de las luces."
+        }
+    },
+    "fitbit": {
+        "user": "Usuario: ",
+        "averageSteps": "Promedio de Pasos: ",
+        "batteryStatus": "Estado de la batería: ",
+        "today": "Hoy",
+        "steps": "Pasos",
+        "averageSteps": "Pasos al día",
+        "caloriesBurned": "Calorías quemadas",
+        "lastSync": "Última sincronización",
+        "average": "Promedio",
+        "activeMinutes": "Minutos activos",
+        "distance": "km",
+        "floors": "Pisos",
+        "topBadges": "Las mejores insignias",
+        "sleep": "Dormir",
+        "lastNight": "Anoche",
+        "awake": "Despierto",
+        "restless": "Inquieto",
+        "hours": "horas",
+        "km": "km",
+        "miles": "mi",
+        "minutes": "min",
+        "times": "x",
+        "restingHR": "Frecuencia cardíaca en reposo",
+        "bpm": "bpm"
+    }
+}
