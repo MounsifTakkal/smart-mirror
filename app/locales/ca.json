@@ -136,8 +136,8 @@
             "description": "Muestra el comic Dilbert."
         },
         "reminder_insert": {
-            "text": "Recorda\'m fer _______",
-            "voice": "Recorda\'m fer *task*",
+            "text": "Recorda'm fer _______",
+            "voice": "Recorda'm fer *task*",
             "description": "Recordar-me fer una tasca."
         },
         "reminder_clear": {
