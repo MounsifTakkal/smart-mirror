@@ -48,17 +48,17 @@
         "list-next": {
             "text": "Siguiente página",
             "voice": "siguiente(-página) (orden) (página)",
-            "description": "Muestra la siguiente página de órdenes. (solo dispo$
+            "description": "Muestra la siguiente página de órdenes."
         },
         "list-prev": {
             "text": "Página anterior",
             "voice": "anterior(-página) (orden) (página)",
-            "description": "Muestra la página de órdenes anterior. (solo dispon$
+            "description": "Muestra la página de órdenes anterior."
         },
         "list-page": {
             "text": "Pasa a la página _______",
             "voice": "(pasa a la) (ves a) (orden) página *pageNum",
-            "description": "Muestra una página específica de la lista de órdene$
+            "description": "Muestra una página específica."
         },        
         "home": {
             "text": "Vuelve",
