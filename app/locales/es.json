@@ -45,6 +45,21 @@
             "voice": "Que digo",
             "description": "Lista de los comandos de voz."
         },
+        "list-next": {
+            "text": "Siguiente página",
+            "voice": "siguiente(-página) (orden) (página)",
+            "description": "Muestra la siguiente página de órdenes. (solo dispo$
+        },
+        "list-prev": {
+            "text": "Página anterior",
+            "voice": "anterior(-página) (orden) (página)",
+            "description": "Muestra la página de órdenes anterior. (solo dispon$
+        },
+        "list-page": {
+            "text": "Pasa a la página _______",
+            "voice": "(pasa a la) (ves a) (orden) página *pageNum",
+            "description": "Muestra una página específica de la lista de órdene$
+        },        
         "home": {
             "text": "Vuelve",
             "voice": "Vuelve",
