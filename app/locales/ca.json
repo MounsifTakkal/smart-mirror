@@ -1,6 +1,6 @@
 {
     "home" : {
-        "commands" : "Digues \"Qué puc dir?\" per veure un llistat d'ordres..."
+        "commands" : "Digues \"Què puc dir?\" per veure un llistat d'ordres..."
     },
     "traffic" : {
         "time_to" : "Temps fins a {{name}}: "
@@ -41,8 +41,8 @@
     "commands": {
         "title" : "Llistat d'ordres",
         "list": {
-            "text": "Qué puc dir?",
-            "voice": "Que dic",
+            "text": "Què puc dir?",
+            "voice": "Què puc dir?",
             "description": "Llistat d'ordres de veu."
         },
         "list-next": {
