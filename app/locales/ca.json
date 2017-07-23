@@ -116,13 +116,13 @@
             "description": "Busca una imatge."
         },
         "video_stop": {
-            "text": "Atura vídeo",
-            "voice": "Atura vídeo",
-            "description": "Atura la reproducció de vídeo."
+            "text": "Atura video",
+            "voice": "Atura video",
+            "description": "Atura la reproducció de video."
         },
         "image_giphy": {
             "text": "Busca animació de _______",
-            "voice": "Busca animacion de *img*",
+            "voice": "Busca animació de *img*",
             "description": "Busca animació d'algun tema."
         },
         "image_comic": {
