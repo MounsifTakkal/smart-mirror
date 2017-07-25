@@ -73,10 +73,7 @@ sudo apt-get update
 sudo apt-get upgrade -y
 
 # uninstall current node version for a fresh install
-sudo apt-get remove node -y
 sudo apt-get remove nodejs -y
-sudo apt-get autoremove
-sudo apt-get clean
 
 # Install native dependencies
 printf "%s\n${blu}Installing native dependencies${end}\n"
