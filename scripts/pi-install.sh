@@ -68,6 +68,10 @@ printf "%s${red}Please do not exit this script until it is complete.${end}\n"
 # display_rotate=1' /boot/config.txt
 # fi
 
+# update & upgrade
+sudo apt-get update
+sudo apt-get upgrade -y
+
 # uninstall current node version for a fresh install
 sudo apt-get remove node -y
 sudo apt-get remove nodejs -y
