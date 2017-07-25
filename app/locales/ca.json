@@ -1,6 +1,6 @@
 {
     "home" : {
-        "commands" : "Digues \"Què puc dir?\" per veure un llistat d'ordres..."
+        "commands" : ""
     },
     "traffic" : {
         "time_to" : "Temps fins a {{name}}: "
@@ -91,8 +91,8 @@
             "description": "Mostra el mapa de la posició indicada."
         },
         "map_zoom_in": {
-            "text": "Amplia",
-            "voice": "Amplia (mapa)",
+            "text": "Ampliar",
+            "voice": "Ampliar (mapa)",
             "description": "Amplia el mapa."
         },
         "map_zoom_out": {
@@ -101,8 +101,8 @@
             "description": "Redueix el mapa."
         },
         "map_zoom_point": {
-            "text": "Apunta mapa a _______",
-            "voice": "Apunta (mapa) a *value*",
+            "text": "Apuntar mapa a _______",
+            "voice": "Apuntar (mapa) a *value*",
             "description": "Apunta el mapa a un punt en concret."
         },
         "map_zoom_reset": {
@@ -111,8 +111,8 @@
             "description": "Resetea (mapa)."
         },
         "video_search": {
-            "text": "Busca imatge de _______",
-            "voice": "Busca imatge de *term*",
+            "text": "Buscar imatge de _______",
+            "voice": "Buscar imatge de *term*",
             "description": "Busca una imatge."
         },
         "video_stop": {
@@ -121,19 +121,19 @@
             "description": "Atura la reproducció de video."
         },
         "image_giphy": {
-            "text": "Busca animació de _______",
-            "voice": "Busca animació de *img*",
+            "text": "Buscar animació de _______",
+            "voice": "Buscar animació de *img*",
             "description": "Busca animació d'algun tema."
         },
         "image_comic": {
-            "text": "Cómic",
-            "voice": "Cómic (del dia)",
-            "description": "Mostra el cómic del día."
+            "text": "Còmic",
+            "voice": "Còmic (del dia)",
+            "description": "Mostra el còmic del día."
         },
         "image_comic_dilbert": {
-            "text": "Cómic Dilbert",
-            "voice": "Cómic Dilbert",
-            "description": "Mostra el cómic Dilbert."
+            "text": "Còmic Dilbert",
+            "voice": "Còmic Dilbert",
+            "description": "Mostra el còmic Dilbert."
         },
         "reminder_insert": {
             "text": "Recorda'm fer _______",
@@ -196,9 +196,9 @@
             "description": "Replays the current song on SoundCloud."
         },
         "light_action": {
-            "text": "[estado] las luces a [acción]",
-            "voice": ":state las luces a *action",
-            "description": "Cambia el estado de las luces."
+            "text": "[estat] llums a [acció]",
+            "voice": ":estat llums a *action",
+            "description": "Cambía l'estat de les llums."
         }
     },
     "fitbit": {
