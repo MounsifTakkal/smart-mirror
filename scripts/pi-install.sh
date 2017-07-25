@@ -3,8 +3,8 @@
 set -e
 
 # Supported versions of node: v4.x, v5.x
-NODE_MINIMUM_VERSION="v8.0.0"
-NODE_STABLE_VERSION="8.x"
+NODE_MINIMUM_VERSION="v6.0.0"
+NODE_STABLE_VERSION="6.x"
 
 # Compare node versions.
 function check_version() { test "$(echo "$@" | tr " " "\n" | sort -V | head -n 1)" != "$1"; }
@@ -50,7 +50,7 @@ EOF
 ARCH=$(uname -m) 
 # Check processor archetecture.
 if [ "$ARCH" != "armv7l" ]; then
-	printf "%s${red} Unupported device!${end} The smart-mirror only works on the Pi 2 and 3"
+	printf "%s${red} Unsupported device!${end} The smart-mirror only works on the Pi 2 and 3"
 	exit;
 fi
 
@@ -67,6 +67,12 @@ printf "%s${red}Please do not exit this script until it is complete.${end}\n"
 # #Rotate the display (smart-mirror)\
 # display_rotate=1' /boot/config.txt
 # fi
+
+# uninstall current node version for a fresh install
+sudo apt-get remove node -y
+sudo apt-get remove nodejs -y
+sudo apt-get autoremove
+sudo apt-get clean
 
 # Install native dependencies
 printf "%s\n${blu}Installing native dependencies${end}\n"
