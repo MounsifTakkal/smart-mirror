@@ -96,24 +96,24 @@
             "description": "Amplia el mapa."
         },
         "map_zoom_out": {
-            "text": "Redueix mapa",
-            "voice": "Redueix (mapa)",
+            "text": "Petit",
+            "voice": "Petit (mapa)",
             "description": "Redueix el mapa."
         },
         "map_zoom_point": {
-            "text": "Apuntar mapa a _______",
-            "voice": "Apuntar (mapa) a *value*",
+            "text": "Ves a _______",
+            "voice": "Ves (mapa) a *value*",
             "description": "Apunta el mapa a un punt en concret."
         },
         "map_zoom_reset": {
-            "text": "Resetea mapa",
-            "voice": "Resetea (mapa)",
+            "text": "Esborra mapa",
+            "voice": "Esborra (mapa)",
             "description": "Resetea (mapa)."
         },
         "video_search": {
-            "text": "Buscar imatge de _______",
-            "voice": "Buscar imatge de *term*",
-            "description": "Busca una imatge."
+            "text": "Buscar video de _______",
+            "voice": "Buscar video de *term*",
+            "description": "Busca un video."
         },
         "video_stop": {
             "text": "Atura video",
@@ -126,14 +126,14 @@
             "description": "Busca animació d'algun tema."
         },
         "image_comic": {
-            "text": "Còmic",
-            "voice": "Còmic (del dia)",
-            "description": "Mostra el còmic del día."
+            "text": "Comic",
+            "voice": "Comic (del dia)",
+            "description": "Mostra el comic del dia."
         },
         "image_comic_dilbert": {
-            "text": "Còmic Dilbert",
-            "voice": "Còmic Dilbert",
-            "description": "Mostra el còmic Dilbert."
+            "text": "Comic Dilbert",
+            "voice": "Comic Dilbert",
+            "description": "Mostra el comic Dilbert."
         },
         "reminder_insert": {
             "text": "Recorda'm fer _______",
