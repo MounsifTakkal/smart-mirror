@@ -111,8 +111,8 @@
             "description": "Resetea (mapa)."
         },
         "video_search": {
-            "text": "Busca video de _______",
-            "voice": "Busca video de *term*",
+            "text": "Busca vídeo de _______",
+            "voice": "Busca vídeo de *term*",
             "description": "Busca un video."
         },
         "video_stop": {
